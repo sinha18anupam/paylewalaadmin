@@ -1,0 +1,73 @@
+.Main-Navbar{
+    height:97vh;
+    width: 200px;
+    position: fixed;
+    top: 2%;
+    bottom: 2%;
+    left: 2%;
+    background-color: #f8ea9d;
+    /* padding-top: 20px; */
+    border-radius: 20px;
+    /* margin-left: 20px; */
+}
+.navbar-items{
+  
+    /* margin: 50px; */
+    /* margin: 0 50px ; */
+}
+.navbar-items li{
+/* padding: 30px; */
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar-items {
+    list-style-type: none;
+    width: 200px;
+    display: flex;
+align-items: center;
+text-decoration: none;
+  
+    flex-direction: column;
+    justify-content: space-around;
+    
+  height: 100vh;
+
+}
+svg{
+    height: 40px;
+    width: 50px;
+}
+.hide-text {
+    display: inline;
+}
+
+
+@media (max-width: 768px) {
+    /* Show text on larger screens */
+    .hide-text {
+        display: none;
+    }
+    .Main-Navbar{
+        height:99vh;
+        width: 80px;   
+        position: fixed;
+        top: 2%;
+        bottom: 2%;
+        left: 2%;
+        background-color: #f8ea9d;
+        /* padding-top: 20px; */
+        border-radius: 20px;
+        /* margin-left: 20px; */
+    }
+    .navbar-items{
+        width: 80px;
+        /* margin: 50px; */
+        /* margin: 0 50px ; */
+    }
+    svg{
+        height: 30px;
+        width: 30px;
+    }
+}

@@ -1,0 +1,119 @@
+    .main-Allproduct{
+      margin-left: 230px;
+    }
+    .allproduct{
+        display: flex;
+        justify-content: space-around;
+    
+
+    }
+    .title{
+        margin-top: 5px;
+        /* margin-bottom: 50px; */
+    }
+
+
+    .product-cards {
+        padding: 20px;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+        justify-content: space-between;
+    }
+    
+    .card {
+        display: flex;
+        /* flex-direction: column; */
+        margin-bottom: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+        
+    }
+    
+    .card img {
+        /* width: 100%; */
+        height: 200px;
+        width: 300px;
+        object-fit: fill;
+    }
+    
+    .card-body {
+        padding: 10px;
+    }
+    
+    .card-body h5 {
+        margin-bottom: 5px;
+    }
+    
+    .card-body p {
+        margin-bottom: 10px;
+    }
+    .add button {
+        background-color: #4CAF50; 
+        border: none;
+        color: white; 
+        padding: 12px 24px;
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        border-radius: 4px; 
+        margin-top: 5px;
+        transition: background-color 0.3s ease; 
+        cursor: pointer;
+        transition: ease(1.4s);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Add a subtle box shadow */
+      }
+      
+      .add button:hover {
+        background-color: #45a049;
+        transform: scale(1.2); 
+
+      }
+      
+      .add button h3 {
+        margin: 0; /* Remove default margin */
+        font-weight: bold; /* Bold text */
+        text-transform: uppercase; /* Uppercase text */
+        letter-spacing: 1px; /* Increase letter spacing */
+      }
+      
+    @media (max-width: 768px) {
+        .main-Allproduct{
+            margin-left: 100px;
+          }
+          .card{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+          }
+          .card img{
+            width: 200px;
+            height: 200px;
+          }
+          .add button{
+            margin-top: 10px;
+            padding: 8px 14px;
+
+          }
+          .card-body {
+            /* padding: 10px; */
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagee{
+            display: flex;
+            justify-content: center;
+        }
+        .navbar-items{
+            height: 97vh;
+            position: absolute;
+        }
+        .add button{
+          
+        }
+    }
